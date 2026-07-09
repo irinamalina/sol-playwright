@@ -14,6 +14,7 @@
     "test:ci": "SKIP_WEB_SERVER=1 playwright test",
     "report": "playwright show-report",
     "test:reset-db": "node scripts/reset-test-data.js",
+    "test:triage": "node scripts/triage-results.js",
     "install:browsers": "playwright install --with-deps"
   },
   "devDependencies": {
